@@ -1,4 +1,4 @@
-﻿/* Задача 47. Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
+﻿/* Задача 1. Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
 
 m = 3, n = 4.
 
@@ -10,6 +10,7 @@ m = 3, n = 4.
 
 */
 
+/*
 int[,] Create2DRandomArray(int rows, int columns , int minValue, int maxValue)
 {
     int [,] newArray = new int[rows,columns];
@@ -41,6 +42,7 @@ Console.Write("Введите максимальное значение ");
 int max = Convert.ToInt32(Console.ReadLine());
 int[,] myArray= Create2DRandomArray(m , n , min, max);
 Show2DArray(myArray);
+*/
 
 
 
